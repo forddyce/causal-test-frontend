@@ -171,7 +171,7 @@ function App() {
         </p>
 
         <p className="text-xs italic text-gray-400 mt-6 text-center">
-          Lucid FE Test by Fordyce Gozali
+          by Fordyce Gozali
         </p>
       </div>
     </div>
