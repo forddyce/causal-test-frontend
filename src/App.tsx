@@ -4,12 +4,12 @@ import {
   QueryClientProvider,
   useQuery,
 } from "@tanstack/react-query";
-import { useAppStore, TagElement } from "./store"; // Import ParagraphElement
-import { AutocompleteItem } from "./utils/types"; // Corrected import path
+import { useAppStore, TagElement } from "./store";
+import { AutocompleteItem } from "./utils/types";
 import FormulaInput from "./components/FormulaInput";
 import { v4 as uuidv4 } from "uuid";
 import * as math from "mathjs";
-import { Descendant, Text, Element as SlateElement } from "slate"; // Import Element as SlateElement
+import { Descendant, Text, Element as SlateElement } from "slate";
 
 const queryClient = new QueryClient();
 
